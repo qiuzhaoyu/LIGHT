@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="LIGHT framework placeholder">
+  <rect width="1200" height="420" fill="#f7f9fb"/>
+  <rect x="40" y="55" width="250" height="310" rx="10" fill="#e8f1fb" stroke="#2f6f9f" stroke-width="2"/>
+  <rect x="475" y="55" width="250" height="310" rx="10" fill="#eef7ed" stroke="#4f8a4f" stroke-width="2"/>
+  <rect x="910" y="55" width="250" height="310" rx="10" fill="#fff4e6" stroke="#b36b00" stroke-width="2"/>
+  <text x="165" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123">Multimodal MRI</text>
+  <text x="165" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">T1 / T1c / T2 / FLAIR</text>
+  <text x="165" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Segmentation prior</text>
+  <text x="600" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123">LIGHT</text>
+  <text x="600" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Image-text grounding</text>
+  <text x="600" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Prompt retrieval</text>
+  <text x="600" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Hierarchical supervision</text>
+  <text x="1035" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123">Outputs</text>
+  <text x="1035" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Coarse localization</text>
+  <text x="1035" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Fine localization</text>
+  <text x="1035" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#345">Subtype classification</text>
+  <path d="M310 210 H455" stroke="#394b59" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M745 210 H890" stroke="#394b59" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#394b59"/>
+    </marker>
+  </defs>
+  <text x="600" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5c6b73">Placeholder. Replace with exported PNG/SVG from assets/figures/source/framework_v5.pdf.</text>
+</svg>

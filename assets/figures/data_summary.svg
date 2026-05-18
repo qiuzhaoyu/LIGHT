@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Dataset summary placeholder">
+  <rect width="1200" height="360" fill="#fbfbf8"/>
+  <text x="60" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123">Dataset and validation summary</text>
+  <rect x="80" y="110" width="180" height="150" fill="#d8ecff" stroke="#2f6f9f"/>
+  <rect x="300" y="90" width="180" height="170" fill="#d8ecff" stroke="#2f6f9f"/>
+  <rect x="520" y="135" width="180" height="125" fill="#d8ecff" stroke="#2f6f9f"/>
+  <rect x="740" y="155" width="180" height="105" fill="#d8ecff" stroke="#2f6f9f"/>
+  <rect x="960" y="125" width="180" height="135" fill="#d8ecff" stroke="#2f6f9f"/>
+  <text x="170" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Dataset 1</text>
+  <text x="390" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Dataset 2</text>
+  <text x="610" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Dataset 3</text>
+  <text x="830" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Dataset 4</text>
+  <text x="1050" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Dataset 5</text>
+  <text x="600" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5c6b73">Placeholder. Replace with exported figure from data_result_v4.pdf.</text>
+</svg>

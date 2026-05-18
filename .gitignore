@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Large local artifacts
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+data/raw/
+data/private/
+outputs/
+runs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

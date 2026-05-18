@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Ablation placeholder">
+  <rect width="1200" height="360" fill="#f9fafb"/>
+  <text x="60" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123">Ablation summary</text>
+  <polyline points="90,260 250,210 410,175 570,135 730,115 890,95 1050,80" fill="none" stroke="#1f77b4" stroke-width="6"/>
+  <polyline points="90,285 250,250 410,230 570,205 730,175 890,160 1050,145" fill="none" stroke="#ff7f0e" stroke-width="6"/>
+  <circle cx="570" cy="135" r="8" fill="#1f77b4"/>
+  <circle cx="570" cy="205" r="8" fill="#ff7f0e"/>
+  <text x="930" y="105" font-family="Arial, sans-serif" font-size="20" fill="#1f77b4">Localization</text>
+  <text x="930" y="170" font-family="Arial, sans-serif" font-size="20" fill="#ff7f0e">Subtype</text>
+  <text x="600" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5c6b73">Placeholder. Replace with exported figure from ablation.pdf.</text>
+</svg>
