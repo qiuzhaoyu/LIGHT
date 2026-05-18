@@ -7,4 +7,4 @@ Planned examples:
 - Single-case inference
 - Batch inference from a CSV file
 - Prompt-vocabulary inspection
-- Reproducing README figures and tables
+- Reproducing README figures

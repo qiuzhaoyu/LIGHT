@@ -10,7 +10,7 @@ LIGHT formulates brain tumor localization and subtype classification as a unifie
 
 ## Framework
 
-![LIGHT framework](assets/figures/framework.svg)
+![LIGHT framework](assets/figures/framework.png)
 
 Source figure: [`assets/figures/source/framework_v5.pdf`](assets/figures/source/framework_v5.pdf)
 
@@ -20,7 +20,7 @@ Source figure: [`assets/figures/source/framework_v5.pdf`](assets/figures/source/
 LIGHT/
 +-- assets/
 |   +-- figures/          # README figures and source PDFs
-|   +-- tables/           # Markdown/CSV result tables
+|       +-- source/       # Source PDFs copied from the manuscript
 +-- checkpoints/          # Model checkpoints or download instructions
 +-- data/                 # Data access notes and sample metadata
 +-- docs/                 # Extra documentation
@@ -33,29 +33,27 @@ LIGHT/
 
 ### Dataset And Validation Summary
 
-![Dataset and validation summary](assets/figures/data_summary.svg)
+![Dataset and validation summary](assets/figures/data_summary.png)
 
 Source figure: [`assets/figures/source/data_result_v4.pdf`](assets/figures/source/data_result_v4.pdf)
 
-### Main Quantitative Results
+### LLM-Assisted Label Validation
 
-| Task | Dataset | Metric | LIGHT | Notes |
-| --- | --- | ---: | ---: | --- |
-| Coarse localization | Dataset 1 | ACC / F1 | TBD | Patient-wise cross-validation |
-| Fine localization | Dataset 1 | Top-1 / Top-3 / Top-5 | TBD | 563-region retrieval vocabulary |
-| Subtype classification | Dataset 1 | ACC / F1 | TBD | 3D multimodal setting |
-| Subtype classification | Dataset 2 | ACC / F1 | TBD | External clinical validation |
-| Public 2D validation | Dataset 4/5 | ACC / F1 | TBD | Complementary public validation |
+![LLM-assisted label validation](assets/figures/llm_validation.png)
 
-Additional editable tables are collected in [`assets/tables/results.md`](assets/tables/results.md).
+Source figure: [`assets/figures/source/LLM_result_v1.pdf`](assets/figures/source/LLM_result_v1.pdf)
 
-### Ablation And Qualitative Examples
+### Ablation Summary
 
-![Ablation summary](assets/figures/ablation.svg)
+![Ablation summary](assets/figures/ablation.png)
 
 Source figure: [`assets/figures/source/ablation.pdf`](assets/figures/source/ablation.pdf)
 
-![Qualitative retrieval examples](assets/figures/qualitative_examples.svg)
+### Qualitative Examples
+
+![Qualitative retrieval examples](assets/figures/qualitative_tsne.png)
+
+![Grad-CAM visualization](assets/figures/qualitative_gradcam.png)
 
 Source figures:
 [`qualitative_results_3_v4.pdf`](assets/figures/source/qualitative_results_3_v4.pdf),
