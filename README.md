@@ -2,7 +2,7 @@
 
 **Learning Image-Text Grounding for Hierarchical Brain Tumor Localization and Subtype Classification in Multimodal MRI**
 
-This repository will host the code, documentation, sample data, and reproducible assets for LIGHT. The project is under active preparation; the current version provides the public-facing structure and placeholders for the full release.
+This repository will host the code, documentation, sample data, and reproducible assets for LIGHT. The project is under active preparation; the current version provides a lightweight public scaffold with manuscript figures and release placeholders.
 
 ## Overview
 
@@ -12,7 +12,7 @@ LIGHT formulates brain tumor localization and subtype classification as a unifie
 
 ![LIGHT framework](assets/figures/framework.png)
 
-Source figure: [`assets/figures/source/framework_v5.pdf`](assets/figures/source/framework_v5.pdf)
+LIGHT combines multimodal MRI encoding with text-side anatomical and subtype prompts. The model is trained to align image features with human-readable prompt embeddings, so localization and subtype classification can be expressed as retrieval over explicit clinical concepts.
 
 ## Repository Layout
 
@@ -35,29 +35,33 @@ LIGHT/
 
 ![Dataset and validation summary](assets/figures/data_summary.png)
 
-Source figure: [`assets/figures/source/data_result_v4.pdf`](assets/figures/source/data_result_v4.pdf)
+The study includes in-house, external clinical, and public validation cohorts. This figure summarizes the cohort composition and the role of each dataset in localization, subtype classification, and public validation experiments.
 
 ### LLM-Assisted Label Validation
 
 ![LLM-assisted label validation](assets/figures/llm_validation.png)
 
-Source figure: [`assets/figures/source/LLM_result_v1.pdf`](assets/figures/source/LLM_result_v1.pdf)
+Structured report information is used to support label construction. The validation figure summarizes the manual review process and the agreement of LLM-assisted extraction with expert-verified labels.
 
 ### Ablation Summary
 
 ![Ablation summary](assets/figures/ablation.png)
 
-Source figure: [`assets/figures/source/ablation.pdf`](assets/figures/source/ablation.pdf)
+The ablation study evaluates the contribution of foundation pretraining, prompt design, model components, and modality settings. Numerical result tables will be added after the final manuscript values are locked.
 
 ### Qualitative Examples
 
 ![Qualitative retrieval examples](assets/figures/qualitative_tsne.png)
 
+The embedding visualization provides a qualitative view of how image-text grounding separates anatomical or subtype concepts in the learned representation space.
+
 ![Grad-CAM visualization](assets/figures/qualitative_gradcam.png)
 
-Source figures:
-[`qualitative_results_3_v4.pdf`](assets/figures/source/qualitative_results_3_v4.pdf),
-[`qualitative_results_4_v5.pdf`](assets/figures/source/qualitative_results_4_v5.pdf)
+The attention visualization illustrates the regions that contribute to the retrieved localization and subtype hypotheses.
+
+## Figure Sources
+
+The README images are rendered as white-background PNG files for readability in both light and dark GitHub themes. Original manuscript PDFs are kept in [`assets/figures/source`](assets/figures/source) for later replacement or higher-resolution export.
 
 ## Installation
 
