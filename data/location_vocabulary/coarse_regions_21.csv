@@ -1,0 +1,22 @@
+﻿coarse_id,coarse_region
+CR01,left frontal lobe
+CR02,right frontal lobe
+CR03,left temporal lobe
+CR04,right temporal lobe
+CR05,left parietal lobe
+CR06,right parietal lobe
+CR07,left occipital lobe
+CR08,right occipital lobe
+CR09,left cerebellar hemisphere
+CR10,right cerebellar hemisphere
+CR11,midbrain
+CR12,pons
+CR13,medulla
+CR14,left thalamus
+CR15,right thalamus
+CR16,left basal ganglia
+CR17,right basal ganglia
+CR18,left lateral ventricle
+CR19,right lateral ventricle
+CR20,third ventricle
+CR21,fourth ventricle
